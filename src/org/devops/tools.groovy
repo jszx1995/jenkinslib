@@ -1,10 +1,5 @@
 package org.devops
 
-//打印mes
-def PrintMes(content){
-    println(content)
-}
-
 //格式化输出
 def PrintMes(value,color){
     color = ['red'  : "\033[40;31m >>>>>>>>>${value}<<<<<<<<<< \033[0m]",
