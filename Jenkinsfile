@@ -31,7 +31,7 @@ pipeline{
 				timeout(time:5, unit:"MINUTES"){ //步骤超时时间
 					script{ //填写运行代码
 						println('获取代码')
-						tools.PrintMes("获取代码",'green')
+						tools.PrintMes("获取代码",'green1')
 						println(CC)
 					}
 				}
