@@ -10,5 +10,5 @@ def SaltDeploy(hosts, func){
 
 //ansible
 def Ansible(hosts, func){
-    sh "ansible -m ${func} ${hosts}"
+    sh "ansible ${func} ${hosts}"
 }
